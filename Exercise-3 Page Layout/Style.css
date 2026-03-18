@@ -24,7 +24,7 @@ nav a {
 /* Top section styling */
 .top-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
 }
 /* Text section styling */
@@ -33,21 +33,31 @@ nav a {
     padding-right: 20px ;
 }
 /* Side image styling */
-.side-image {
-    width: 100%;
-    height: auto;
+.Side-image {
+    float: right;
+    width: 342px;
+    height: 309px;
+    margin-right: 15px;
+    margin-left: 10px;
+    border-radius: 1px;
 }
 /* Gallery styling */
 .gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 /* Gallery images and videos styling */
-.gallery img,
-.gallery video{
-    height: 200px;
-    margin: 10px;
+.gallery img{
+    width: 281px;
+    height: 204px;
+    object-fit: cover;
 }
+.gallery video{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
 /* Footer styling */
 footer {
     text-align: center;

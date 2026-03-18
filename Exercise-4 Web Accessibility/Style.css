@@ -8,6 +8,16 @@ body {
     color: black;
 }
 
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -25,4 +35,9 @@ img{
 
 section{
     margin: 20px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
 }

@@ -1,47 +1,55 @@
+
+/* Body BG color and font */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #c5c6d7;
 }
-
+/* Header styling */
 header {
     padding: 20px;
     text-align: center;
 }
-
+/* Navigation styling */
 nav {
     margin-bottom: 20px;
     text-align: center;
 }
-
+/* Navigation links styling */
 nav a {
     margin: 0 15px;
     text-decoration: underline;
     color: #363fba;
 }
-
+/* Top section styling */
 .top-section {
     display: flex;
     justify-content: space-around;
     padding: 20px;
 }
-
+/* Text section styling */
 .text {
     width: 50%;
     padding-right: 20px ;
 }
-
+/* Side image styling */
 .side-image {
     width: 100%;
     height: auto;
 }
-
+/* Gallery styling */
 .gallery {
     display: flex;
     flex-wrap: wrap;
 }
-
+/* Gallery images and videos styling */
 .gallery img,
 .gallery video{
     height: 200px;
     margin: 10px;
+}
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
 }

@@ -2,3 +2,20 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: underline;
+    color: #363fba;
+}
+

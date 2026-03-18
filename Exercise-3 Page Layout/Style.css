@@ -19,3 +19,29 @@ nav a {
     color: #363fba;
 }
 
+.top-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.text {
+    width: 50%;
+    padding-right: 20px ;
+}
+
+.side-image {
+    width: 100%;
+    height: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img,
+.gallery video{
+    height: 200px;
+    margin: 10px;
+}
